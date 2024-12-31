@@ -15,7 +15,7 @@ app.get('/products', (req, res)=>{
     res.send("Products page")
 })
 
-app.listen(3000, ()=>{
+app.listen(5000, ()=>{
     connectDB();
 })
 
